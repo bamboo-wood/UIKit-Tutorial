@@ -15,6 +15,7 @@
 		DF65969E297290B300794D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF65969C297290B300794D60 /* LaunchScreen.storyboard */; };
 		DF6596A72972938300794D60 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6596A62972938300794D60 /* Reminder.swift */; };
 		DF80387529729F9E0072AFEF /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF80387429729F9E0072AFEF /* Date+Today.swift */; };
+		DF8038782972A1270072AFEF /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8038772972A1270072AFEF /* ReminderListViewController+DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DF65969F297290B300794D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF6596A62972938300794D60 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		DF80387429729F9E0072AFEF /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
+		DF8038772972A1270072AFEF /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,7 @@
 				DF6596A52972937100794D60 /* Models */,
 				DF659691297290B300794D60 /* AppDelegate.swift */,
 				DF659693297290B300794D60 /* SceneDelegate.swift */,
-				DF659695297290B300794D60 /* ReminderListViewController.swift */,
+				DF8038762972A0EC0072AFEF /* ListViewController */,
 				DF659697297290B300794D60 /* Main.storyboard */,
 				DF65969A297290B300794D60 /* Assets.xcassets */,
 				DF65969C297290B300794D60 /* LaunchScreen.storyboard */,
@@ -79,6 +81,15 @@
 				DF80387429729F9E0072AFEF /* Date+Today.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		DF8038762972A0EC0072AFEF /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DF659695297290B300794D60 /* ReminderListViewController.swift */,
+				DF8038772972A1270072AFEF /* ReminderListViewController+DataSource.swift */,
+			);
+			path = ListViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 				DF659692297290B300794D60 /* AppDelegate.swift in Sources */,
 				DF659694297290B300794D60 /* SceneDelegate.swift in Sources */,
 				DF6596A72972938300794D60 /* Reminder.swift in Sources */,
+				DF8038782972A1270072AFEF /* ReminderListViewController+DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
