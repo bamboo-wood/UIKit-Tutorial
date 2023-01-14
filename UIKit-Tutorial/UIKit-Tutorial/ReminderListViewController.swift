@@ -27,9 +27,12 @@ class ReminderListViewController: UICollectionViewController {
             cell.contentConfiguration = contentConfiguration
         }
         
-        dataSource = DataSource(collectionView: collectionView, cellProvider: { collectionView, indexPath, itemIdentifier in
-            return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: itemIdentifier)
-        })
+        dataSource = DataSource(
+            collectionView: collectionView,
+            cellProvider: { collectionView, indexPath, itemIdentifier in
+                return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: itemIdentifier)
+            }
+        )
         
         var snapshot = Snapshot()
         snapshot.appendSections([0])
