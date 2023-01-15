@@ -24,6 +24,7 @@
 		DF8038862973C9860072AFEF /* ReminderController+CellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8038852973C9860072AFEF /* ReminderController+CellConfiguration.swift */; };
 		DF8038892973CB5D0072AFEF /* UIView+PinnedSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8038882973CB5D0072AFEF /* UIView+PinnedSubview.swift */; };
 		DF80388B2973CD8C0072AFEF /* TextFieldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF80388A2973CD8C0072AFEF /* TextFieldContentView.swift */; };
+		DF80388D2973CEF50072AFEF /* UIContentConfiguration+Stateless.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF80388C2973CEF50072AFEF /* UIContentConfiguration+Stateless.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		DF8038852973C9860072AFEF /* ReminderController+CellConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderController+CellConfiguration.swift"; sourceTree = "<group>"; };
 		DF8038882973CB5D0072AFEF /* UIView+PinnedSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+PinnedSubview.swift"; sourceTree = "<group>"; };
 		DF80388A2973CD8C0072AFEF /* TextFieldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldContentView.swift; sourceTree = "<group>"; };
+		DF80388C2973CEF50072AFEF /* UIContentConfiguration+Stateless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentConfiguration+Stateless.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				DF80388A2973CD8C0072AFEF /* TextFieldContentView.swift */,
 				DF8038882973CB5D0072AFEF /* UIView+PinnedSubview.swift */,
+				DF80388C2973CEF50072AFEF /* UIContentConfiguration+Stateless.swift */,
 			);
 			path = ContentView;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				DF8038862973C9860072AFEF /* ReminderController+CellConfiguration.swift in Sources */,
 				DF80387529729F9E0072AFEF /* Date+Today.swift in Sources */,
 				DF659692297290B300794D60 /* AppDelegate.swift in Sources */,
+				DF80388D2973CEF50072AFEF /* UIContentConfiguration+Stateless.swift in Sources */,
 				DF8038842973BEC40072AFEF /* ReminderViewController+Section.swift in Sources */,
 				DF659694297290B300794D60 /* SceneDelegate.swift in Sources */,
 				DF8038802972BD4E0072AFEF /* ReminderViewController.swift in Sources */,
