@@ -8,6 +8,24 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ZtA-bU-54R">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9hX-qj-JYH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="weV-7w-jWG">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qSq-lN-SVQ" kind="relationship" relationship="rootViewController" id="YmK-Ku-sob"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mJs-t2-bt2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-429.23076923076923" y="-77.488151658767762"/>
+        </scene>
         <!--Reminder List View Controller-->
         <scene sceneID="04J-44-TIY">
             <objects>
@@ -42,24 +60,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ja2-PJ-1rx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="500" y="-77.488151658767762"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="ZtA-bU-54R">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9hX-qj-JYH" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="weV-7w-jWG">
-                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="qSq-lN-SVQ" kind="relationship" relationship="rootViewController" id="YmK-Ku-sob"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mJs-t2-bt2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-429.23076923076923" y="-77.488151658767762"/>
         </scene>
     </scenes>
     <resources>
