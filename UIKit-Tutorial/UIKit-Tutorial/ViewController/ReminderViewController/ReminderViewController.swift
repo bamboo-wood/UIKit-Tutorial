@@ -45,9 +45,9 @@ class ReminderViewController: UICollectionViewController {
     override func setEditing(_ editing: Bool, animated: Bool) {
         super.setEditing(editing, animated: animated)
         if editing {
-            updateSnapshotForEditing()
+            prepareForEditing()
         } else {
-            updateSnapshotForViewing()
+            prepareForViewing()
         }
     }
     
